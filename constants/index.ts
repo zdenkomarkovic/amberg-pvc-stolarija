@@ -53,38 +53,56 @@ export interface WorkList {
 export const workList = [
   {
     id: 1,
-    title: "Grupni treninzi",
-    text: "Oblikuj svoje telo i poboljšaj kondiciju uz dinamične grupne treninge! Vežbaj u motivišućem okruženju, uz stručno vođstvo i podršku tima. Pridruži se i zajedno postižemo ciljeve!",
+    title: "PVC i ALU prozori i vrata",
+    text: "",
     icon: IoIosPeople,
   },
   {
     id: 2,
-    title: "Individualni treninzi",
-    text: "Ostvari maksimalne rezultate uz personalizovane individualne treninge! Treniraj prema svom tempu, uz stručnu podršku i plan prilagođen tvojim ciljevima. Fokus je na tebi!",
+    title: "Roletne",
+    text: "",
     icon: IoIosPerson,
   },
   {
     id: 3,
-    title: "Pilates",
-    text: "Poboljšaj fleksibilnost, snagu i držanje uz pilates treninge! Uz kontrolisane pokrete i fokus na disanje, oblikuj telo i oslobodi se stresa. Idealno za sve nivoe kondicije!",
-    icon: IoFitnessOutline,
+    title: "Komarnici",
+    text: "",
+    icon: IoIosPerson,
   },
   {
     id: 4,
-    title: "Body power",
-    text: "Ojačaj mišiće i poboljšaj izdržljivost uz intenzivan trening snage! Kombinacija tegova i funkcionalnih vežbi pomoći će ti da postigneš vrhunsku formu.",
-    icon: GiWeightLiftingUp,
+    title: "Garažna vrata",
+    text: "",
+    icon: IoFitnessOutline,
   },
   {
     id: 5,
-    title: "Mix-fit",
-    text: " Dinamičan spoj kardio i snage za maksimalne rezultate! Raznovrsni pokreti, visoka energija i zabavna atmosfera čine svaki trening izazovnim i efektivnim.",
-    icon: MdOutlineSportsGymnastics,
+    title: "Industrijska vrata",
+    text: "",
+    icon: IoFitnessOutline,
   },
   {
     id: 6,
-    title: "Aeronix",
-    text: "Spoj aerobnih vežbi i funkcionalnog treninga za bolju kondiciju i oblikovanje tela! Povećaj izdržljivost, sagori kalorije i uživaj u energičnom ritmu vežbanja.",
+    title: "Klizni sistemi",
+    text: "",
+    icon: GiWeightLiftingUp,
+  },
+  {
+    id: 7,
+    title: "Harmonike",
+    text: "",
+    icon: GiWeightLiftingUp,
+  },
+  {
+    id: 8,
+    title: "Izlozi",
+    text: "",
+    icon: MdOutlineSportsGymnastics,
+  },
+  {
+    id: 9,
+    title: "Žaluzine",
+    text: "",
     icon: PiRocketLaunchBold,
   },
 ];
@@ -249,20 +267,32 @@ export const cards2Data: Cards2Data[] = [
   {
     id: 1,
     icon: GiWeight,
-    title: "Elektroinstalacije",
-    text: "",
+    title: "",
+    text: "Kvalitet bez kompromisa – sarađujemo isključivo sa proverenim evropskim proizvođačima profila",
   },
   {
     id: 2,
     icon: GiWeight,
-    title: "Elektro ormani",
-    text: "",
+    title: "",
+    text: "Individualan pristup - svaki projekat je jedinstven, a mi se trudimo da uvek pronađemo najbolje rešenje za vaše potrebe",
   },
   {
     id: 3,
     icon: GiWeight,
     title: "Industrijski elektro ormani",
-    text: "",
+    text: "Precizna montaža - naši iskusni majstori garantuju profesionalnu i brzu ugradnju",
+  },
+  {
+    id: 4,
+    icon: GiWeight,
+    title: "Industrijski elektro ormani",
+    text: "Energetska efikasnost – uz naše proizvode štedite energiju i smanjujete troškove grejanja i hlađenja",
+  },
+  {
+    id: 5,
+    icon: GiWeight,
+    title: "Industrijski elektro ormani",
+    text: "Moderna estetika – naši sistemi savršeno se uklapaju u tradicionalne i savremene objekte",
   },
 ];
 
@@ -270,5 +300,5 @@ export interface Cards2DataText {
   text: string;
 }
 export const cards2DataText: Cards2DataText = {
-  text: "Pružamo usluge izrade, montaže i održavanja elektro ormana za domaćinstva, poslovne prostore i industrijska postrojenja. Naš tim vodi računa o kvalitetu instalacija i bezbednosti sistema, uz poštovanje svih standarda i propisa.",
+  text: "Bilo da renovirate stan, gradite kuću ili opremate poslovni prostor, Amberg je pravi izbor za vas. Poverite nam svoj prostor i dobićete stolariju koja zadovoljava najviše standarde - po meri vaših želja.",
 };

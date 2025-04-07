@@ -19,7 +19,7 @@ import {
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
-import { Facebook, Mail } from "lucide-react";
+import { Mail } from "lucide-react";
 
 const contactFormSchema = z.object({
   name: z.string().min(2, { message: "Molimo unesite vase ime i prezime" }),
@@ -101,7 +101,7 @@ export default function Contact() {
                 </button>
               </a>
               <a
-                href=""
+                href="https://www.instagram.com/ambergdoo/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="py-[7px] flex border-b-[1px] border-primary "
@@ -109,19 +109,7 @@ export default function Contact() {
                 <button className="hover:scale-110 transition-transform duration-500 px-4 md:px-8 flex gap-4 items-center">
                   {" "}
                   <FaInstagram className=" text-[28px] lg:text-[30px]" />
-                  manikam_starter
-                </button>
-              </a>
-              <a
-                href=""
-                target="_blank"
-                rel="noopener noreferrer"
-                className="py-[7px] flex border-b-[1px] border-primary "
-              >
-                <button className="hover:scale-110 transition-transform duration-500 px-4 md:px-8 flex gap-4 items-center">
-                  {" "}
-                  <Facebook className=" text-[28px] lg:text-[30px]" />
-                  Manikam Starter
+                  ambergdoo
                 </button>
               </a>
             </div>
