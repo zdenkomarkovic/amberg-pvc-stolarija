@@ -1,5 +1,4 @@
 import About from "@/components/About";
-import BackgroundImage from "@/components/BackgroundImage";
 import Cardlist from "@/components/Cardlist";
 import Cards2Kosina from "@/components/Cards2Kosina";
 import HeroOneImg from "@/components/HeroOneImg";
@@ -20,7 +19,6 @@ export default function Home() {
         text={cards2DataText}
       />
       <VideoCard />
-      <BackgroundImage />
     </div>
   );
 }
