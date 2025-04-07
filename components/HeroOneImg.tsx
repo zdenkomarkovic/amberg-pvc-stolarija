@@ -1,6 +1,6 @@
 "use client";
 
-import Hero3 from "../public/hero3.jpg";
+import Hero3 from "../public/decco_62_product.jpg";
 import Image from "next/image";
 import { PhoneIcon } from "lucide-react";
 import { motion } from "framer-motion";

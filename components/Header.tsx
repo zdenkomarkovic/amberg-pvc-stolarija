@@ -1,7 +1,7 @@
 "use client";
 
 import Image from "next/image";
-import Logo from "../public/manikam.png";
+import Logo from "../public/logo.png";
 import Link from "next/link";
 import { ChevronDownIcon, MenuIcon, PhoneIcon } from "lucide-react";
 
@@ -163,8 +163,8 @@ export default function Header() {
           <Image
             src={Logo}
             alt="dm rustic 24"
-            width={50}
-            height={50}
+            width={100}
+            height={100}
             className="rounded-full"
           />
         </Link>
