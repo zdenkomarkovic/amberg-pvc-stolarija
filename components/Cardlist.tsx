@@ -3,11 +3,11 @@
 import React from "react";
 import { workList } from "@/constants/index";
 import { motion } from "framer-motion";
-import { Card, CardHeader, CardTitle, CardContent } from "./ui/card";
+import { Card, CardHeader, CardTitle } from "./ui/card";
 
 const Cardlist = () => {
   return (
-    <div className="pt-10 md:pt-0 md:py-20">
+    <div className="pt-10 md:pt-16 md:pb-16">
       <div className="container px-4 md:px-40 mx-auto space-y-10">
         <h2 className="text-3xl md:text-6xl text-primary text-center  font-bold">
           Kompletna rešenja vaš prostor

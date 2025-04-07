@@ -13,7 +13,7 @@ const Cards2Kosina = ({
 }) => {
   return (
     <div className="">
-      <div className="container px-2 md:px-4 mx-auto py-10 md:py-16 border-b-2 space-y-10 md:space-y-20">
+      <div className="container px-2 md:px-4 mx-auto py-10 md:py-16 border-t-2 border-b-2 space-y-10 md:space-y-16">
         <h2 className="text-4xl md:text-5xl text-center text-primary font-bold">
           {title}
         </h2>
@@ -40,7 +40,7 @@ const Cards2Kosina = ({
         <h3 className="text-2xl md:text-4xl text-center text-primary font-bold">
           Amberg PVC & ALU stolarija - Kada kvalitet i dizajn idu ruku pod ruku.
         </h3>
-        <p className="first-letter:pl-6 text-xl md:text-3xl">{text.text}</p>
+        <p className="first-letter:pl-6">{text.text}</p>
       </div>
     </div>
   );
