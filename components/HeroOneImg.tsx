@@ -3,7 +3,6 @@
 import Hero3 from "../public/hero3.jpg";
 import Image from "next/image";
 import { PhoneIcon } from "lucide-react";
-import Link from "next/link";
 import { motion } from "framer-motion";
 
 const Hero = () => {

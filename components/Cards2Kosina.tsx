@@ -1,5 +1,5 @@
 import { Cards2Data, Cards2DataText } from "@/constants/index";
-import { CardHeader, CardContent, Card } from "./ui/card";
+import { CardContent, Card } from "./ui/card";
 import MotionComponent1 from "./MotionComponent1";
 
 const Cards2Kosina = ({
