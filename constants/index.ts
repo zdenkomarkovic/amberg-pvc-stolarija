@@ -13,10 +13,46 @@ export const navList = [
     title: "Početna",
     link: "/",
   },
-
   {
-    title: "Projekti",
-    link: "/projekti",
+    title: "Pvc i Alu Stolarija",
+    list: [
+      {
+        title: "Prozori i Vrata",
+        link: "",
+      },
+      {
+        title: "Roletne",
+        link: "",
+      },
+      {
+        title: "Komarnici",
+        link: "",
+      },
+      {
+        title: "Garazna vrata",
+        link: "",
+      },
+      {
+        title: "Industrijska vrata",
+        link: "",
+      },
+      {
+        title: "Klizni sistemi",
+        link: "",
+      },
+      {
+        title: "Harmonika vrata",
+        link: "",
+      },
+      {
+        title: "Žaluzine",
+        link: "",
+      },
+    ],
+  },
+  {
+    title: "Proizvodi",
+    link: "/proizvodi",
   },
   {
     title: "Kontakt",

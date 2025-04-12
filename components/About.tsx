@@ -36,13 +36,13 @@ const About = () => {
       <ul>
         <li>
           <span className=" font-bold text-primary">
-            7-komorne nemačke Schüco PVC profile sa troslojnim staklom
+            7-komorne Schüco PVC profile sa troslojnim staklom
           </span>{" "}
           - za maksimalnu termo i zvučnu izolaciju.
         </li>
         <li>
           <span className=" font-bold text-primary">
-            6-komorne poljske Decco PVC profile sa dvoslojnim staklom
+            6-komorne Decco PVC profile sa dvoslojnim staklom
           </span>{" "}
           - optimalan balans kvaliteta i cene.
         </li>
@@ -71,18 +71,11 @@ const About = () => {
         </div>
         <div className="">
           <Image
-            src={"/decco_62_product.jpg"}
+            src={"/pvc-shuco-living-82.jpg"}
             width={500}
             height={500}
             alt="alu i pvc stolarija"
             className="md:w-2/3 mx-auto"
-          />
-          <Image
-            src={"/schueco-logo-data.svg"}
-            width={500}
-            height={500}
-            alt="alu i pvc stolarija"
-            className="w-2/3 md:w-1/3 mx-auto"
           />
         </div>
       </div>

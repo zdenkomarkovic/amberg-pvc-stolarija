@@ -1,6 +1,6 @@
 "use client";
 
-import Hero3 from "../public/decco_62_product.jpg";
+import Hero3 from "../public/hero.jpg";
 import Image from "next/image";
 import { PhoneIcon } from "lucide-react";
 import { motion } from "framer-motion";
@@ -20,8 +20,9 @@ const Hero = () => {
         <h1 className="text-primary text-2xl md:text-7xl font-bold px-4">
           Amberg PVC & ALU stolarija
         </h1>
-        <h2 className="text-muted font-medium text-2xl md:text-5xl">
-          PVC i ALU stolarija Novi Pazar
+        <h2 className="text-muted font-medium text-2xl md:text-5xl text-center">
+          Kvalitetna PVC i ALU stolarija za Nemačku i Srbiju, sa proizvodnjom u
+          Novom Pazaru
         </h2>
         <div className="flex flex-col gap-4 md:flex-row">
           <a href="tel:+3816000000">
