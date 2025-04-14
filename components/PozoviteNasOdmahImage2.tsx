@@ -6,7 +6,7 @@ import Image from "@/node_modules/next/image";
 
 const PozoviteNasOdmah = () => {
   return (
-    <div className="bg-primary text-muted pt-4 md:pt-0">
+    <div className="bg-white text-muted pt-4 md:pt-0">
       <div className="container px-2 md:px-4 mx-auto font-bold flex flex-col-reverse md:flex-row justify-center items-center gap-0 md:gap-20">
         <Image
           src={"/man-9020932_640.png"}
@@ -17,8 +17,8 @@ const PozoviteNasOdmah = () => {
         />
         <div className="flex flex-col gap-6 text-center md:text-left">
           <div>
-            <h2 className=" text-xl md:text-3xl ">
-              Kontaktirajte nas ukoliko želite besplatnu procenu, savet ili
+            <h2 className=" text-xl md:text-3xl text-primary ">
+              Potrebna vam je PVC stolarija - kontaktirajte nas za savet ili
               ponudu
             </h2>
           </div>
@@ -26,7 +26,7 @@ const PozoviteNasOdmah = () => {
             <motion.button
               whileHover={{ translateY: "-5px" }}
               whileTap={{ scale: 0.95 }}
-              className=" mx-auto md:mx-0 text-nowrap flex gap-3 text-xl md:text-3xl items-center text-primary bg-muted rounded-lg px-4 md:px-8 md:py-2 py-2"
+              className=" mx-auto md:mx-0 text-nowrap flex gap-3  text-xl md:text-3xl items-center text-primary bg-muted rounded-lg px-4 md:px-8 md:py-2 py-2"
             >
               <PhoneIcon /> Pozovite odmah
             </motion.button>

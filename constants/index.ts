@@ -14,45 +14,12 @@ export const navList = [
     link: "/",
   },
   {
-    title: "Pvc i Alu Stolarija",
-    list: [
-      {
-        title: "Prozori i Vrata",
-        link: "",
-      },
-      {
-        title: "Roletne",
-        link: "",
-      },
-      {
-        title: "Komarnici",
-        link: "",
-      },
-      {
-        title: "Garazna vrata",
-        link: "",
-      },
-      {
-        title: "Industrijska vrata",
-        link: "",
-      },
-      {
-        title: "Klizni sistemi",
-        link: "",
-      },
-      {
-        title: "Harmonika vrata",
-        link: "",
-      },
-      {
-        title: "Žaluzine",
-        link: "",
-      },
-    ],
+    title: "PVC Stolarija",
+    link: "/pvcstolarija",
   },
   {
-    title: "Proizvodi",
-    link: "/proizvodi",
+    title: "ALU Stolarija",
+    link: "/alustolarija",
   },
   {
     title: "Kontakt",
@@ -179,26 +146,20 @@ export const cards1Data: Cards1Data[] = [
   {
     id: 1,
     icon: GiWeight,
-    title: "Iskustvo i profesionalizam",
-    text: "Višegodišnje iskustvo u opremanju enterijera.",
+    title: "",
+    text: "Dugogodišnje iskustvo i pouzdana usluga",
   },
   {
     id: 2,
     icon: GiWeight,
     title: "Iskustvo i profesionalizam",
-    text: "Višegodišnje iskustvo u opremanju enterijera.",
+    text: " Brza montaža u Srbiji i inostranstvu – naročito u Nemačkoj, Švajcarskoj, Francuskoj i Austriji",
   },
   {
     id: 3,
     icon: GiWeight,
-    title: "Iskustvo i profesionalizam",
-    text: "Višegodišnje iskustvo u opremanju enterijera.",
-  },
-  {
-    id: 4,
-    icon: GiWeight,
-    title: "Srbija i inostranstvo",
-    text: "Višegodišnje iskustvo u opremanju enterijera.",
+    title: "",
+    text: "Estetski prilagodljiva rešenja za vaš dom ili poslovni prostor",
   },
 ];
 
@@ -264,6 +225,7 @@ export const servisCardsData = [
     title: "Izvlačenje sajlom vozila van puta",
     text: "Izvlačenje vozila sa puta sajlom, pažljivo izvedeno kako bi se izbegla dodatna oštećenja vozila.",
   },
+
   {
     id: 10,
     icon: GiWeight,
