@@ -1,12 +1,22 @@
 import { IconType } from "react-icons";
-import { GiWeightLiftingUp } from "react-icons/gi";
 import { GiWeight } from "react-icons/gi";
-import { IoFitnessOutline } from "react-icons/io5";
-import { MdOutlineSportsGymnastics } from "react-icons/md";
-import { IoIosPeople } from "react-icons/io";
-import { IoIosPerson } from "react-icons/io";
-import { PiRocketLaunchBold } from "react-icons/pi";
 import { LuTimerReset } from "react-icons/lu";
+import { GiWindow } from "react-icons/gi";
+import { TbWindow } from "react-icons/tb";
+import { MdOutlineSensorWindow } from "react-icons/md";
+import { BiWindowOpen } from "react-icons/bi";
+import { GiHomeGarage } from "react-icons/gi";
+import { LiaIndustrySolid } from "react-icons/lia";
+import { TfiLayoutSlider } from "react-icons/tfi";
+import { BsShopWindow } from "react-icons/bs";
+import { MdDoorSliding } from "react-icons/md";
+import { LiaBusinessTimeSolid } from "react-icons/lia";
+import { LiaShippingFastSolid } from "react-icons/lia";
+import { HiOutlineHomeModern } from "react-icons/hi2";
+import { MdOutlineSavings } from "react-icons/md";
+import { VscTools } from "react-icons/vsc";
+import { FaPersonThroughWindow } from "react-icons/fa6";
+import { VscWorkspaceTrusted } from "react-icons/vsc";
 
 export const navList = [
   {
@@ -38,55 +48,55 @@ export const workList = [
     id: 1,
     title: "PVC i ALU prozori i vrata",
     text: "",
-    icon: IoIosPeople,
+    icon: TbWindow,
   },
   {
     id: 2,
     title: "Roletne",
     text: "",
-    icon: IoIosPerson,
+    icon: BiWindowOpen,
   },
   {
     id: 3,
     title: "Komarnici",
     text: "",
-    icon: IoIosPerson,
+    icon: MdOutlineSensorWindow,
   },
   {
     id: 4,
     title: "Garažna vrata",
     text: "",
-    icon: IoFitnessOutline,
+    icon: GiHomeGarage,
   },
   {
     id: 5,
     title: "Industrijska vrata",
     text: "",
-    icon: IoFitnessOutline,
+    icon: LiaIndustrySolid,
   },
   {
     id: 6,
     title: "Klizni sistemi",
     text: "",
-    icon: GiWeightLiftingUp,
+    icon: TfiLayoutSlider,
   },
   {
     id: 7,
     title: "Harmonike",
     text: "",
-    icon: GiWeightLiftingUp,
+    icon: MdDoorSliding,
   },
   {
     id: 8,
     title: "Izlozi",
     text: "",
-    icon: MdOutlineSportsGymnastics,
+    icon: BsShopWindow,
   },
   {
     id: 9,
     title: "Žaluzine",
     text: "",
-    icon: PiRocketLaunchBold,
+    icon: GiWindow,
   },
 ];
 
@@ -145,19 +155,19 @@ export interface Cards1Data {
 export const cards1Data: Cards1Data[] = [
   {
     id: 1,
-    icon: GiWeight,
+    icon: LiaBusinessTimeSolid,
     title: "",
     text: "Dugogodišnje iskustvo i pouzdana usluga",
   },
   {
     id: 2,
-    icon: GiWeight,
-    title: "Iskustvo i profesionalizam",
+    icon: LiaShippingFastSolid,
+    title: "",
     text: " Brza montaža u Srbiji i inostranstvu – naročito u Nemačkoj, Švajcarskoj, Francuskoj i Austriji",
   },
   {
     id: 3,
-    icon: GiWeight,
+    icon: HiOutlineHomeModern,
     title: "",
     text: "Estetski prilagodljiva rešenja za vaš dom ili poslovni prostor",
   },
@@ -244,32 +254,32 @@ export interface Cards2Data {
 export const cards2Data: Cards2Data[] = [
   {
     id: 1,
-    icon: GiWeight,
+    icon: VscWorkspaceTrusted,
     title: "",
     text: "Kvalitet bez kompromisa – sarađujemo isključivo sa proverenim evropskim proizvođačima profila",
   },
   {
     id: 2,
-    icon: GiWeight,
+    icon: FaPersonThroughWindow,
     title: "",
     text: "Individualan pristup - svaki projekat je jedinstven, a mi se trudimo da uvek pronađemo najbolje rešenje za vaše potrebe",
   },
   {
     id: 3,
-    icon: GiWeight,
-    title: "Industrijski elektro ormani",
+    icon: VscTools,
+    title: "",
     text: "Precizna montaža - naši iskusni majstori garantuju profesionalnu i brzu ugradnju",
   },
   {
     id: 4,
-    icon: GiWeight,
-    title: "Industrijski elektro ormani",
+    icon: MdOutlineSavings,
+    title: "",
     text: "Energetska efikasnost – uz naše proizvode štedite energiju i smanjujete troškove grejanja i hlađenja",
   },
   {
     id: 5,
-    icon: GiWeight,
-    title: "Industrijski elektro ormani",
+    icon: HiOutlineHomeModern,
+    title: "",
     text: "Moderna estetika – naši sistemi savršeno se uklapaju u tradicionalne i savremene objekte",
   },
 ];
